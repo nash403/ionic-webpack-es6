@@ -1,0 +1,15 @@
+<ion-view>
+    <ion-nav-title>
+        Profile
+    </ion-nav-title>
+    <ion-content>
+        <h1>This is profile page</h1>
+        <p>
+          Username: {{profile.userName}}
+        </p>
+        <h2>Friends are:</h2>
+        <ul>
+          <li ng-repeat="f in friends" loggable="f" index="$index">{{ f }}</li>
+        </ul>
+    </ion-content>
+</ion-view>

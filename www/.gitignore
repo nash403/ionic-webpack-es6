@@ -1,0 +1,4 @@
+*.map
+bundle.js
+assets/
+ionic.app.css
