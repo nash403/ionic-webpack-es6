@@ -6,7 +6,6 @@
     "start": "webpack-dev-server --hot --inline --colors --content-base www/"
   },
   "dependencies": {
-    "extract-text-webpack-plugin": "^1.0.1",
     "gulp": "^3.5.6",
     "gulp-concat": "^2.2.0",
     "gulp-minify-css": "^0.3.0",

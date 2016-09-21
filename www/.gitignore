@@ -1,4 +1,5 @@
 *.map
 bundle.js
 assets/
+lib/
 ionic.app.css
